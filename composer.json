@@ -1,0 +1,35 @@
+{
+    "name": "codingdaniel/magento2-order-tracking-notification",
+    "version": "0.0.1",
+    "description": "Notifies customers when tracking information is added to their orders",
+    "type": "magento2-module",
+    "require": {
+        "php": ">=7.4.0",
+        "magento/magento-composer-installer": "*",
+        "codingdaniel/magento2-core": "*"
+    },
+    "keywords": [
+        "magento",
+        "order management",
+        "order tracking",
+        "github"
+    ],
+    "homepage": "https://github.com/coding-daniel/magento2-order-tracking-notification",
+    "readme": "README.md",
+    "authors": [
+        {
+            "name": "Daniel Pina",
+            "role": "Developer"
+        }
+    ],
+    "license": ["OSL-3.0"],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "CodingDaniel\\OrderTrackingNotification\\": ""
+        }
+    },
+    "minimum-stability": "dev"
+}
